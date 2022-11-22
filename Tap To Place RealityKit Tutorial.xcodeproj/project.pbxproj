@@ -59,8 +59,8 @@
 			children = (
 				B48A0A17292C631400ABDB50 /* AppDelegate.swift */,
 				B48A0A19292C631400ABDB50 /* ContentView.swift */,
-				B48A0A27292C647900ABDB50 /* ARModel.swift */,
 				B48A0A29292C648D00ABDB50 /* ARViewModel.swift */,
+				B48A0A27292C647900ABDB50 /* ARModel.swift */,
 				B48A0A1B292C631400ABDB50 /* Experience.rcproject */,
 				B48A0A1D292C631500ABDB50 /* Assets.xcassets */,
 				B48A0A1F292C631500ABDB50 /* Preview Content */,

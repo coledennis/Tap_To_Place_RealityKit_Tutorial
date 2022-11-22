@@ -12,6 +12,9 @@ struct ContentView : View {
     @ObservedObject var arViewModel : ARViewModel = ARViewModel()
     var body: some View {
         ARViewContainer(arViewModel: arViewModel).edgesIgnoringSafeArea(.all)
+            .onTapGesture(coordinateSpace: .global) { location in
+                arViewModel.raycastFunc(location: location)
+            }
     }
 }
 

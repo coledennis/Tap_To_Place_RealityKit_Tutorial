@@ -16,4 +16,8 @@ class ARViewModel: ObservableObject {
         model.arView
     }
     
+    func raycastFunc(location: CGPoint) {
+        model.raycastFunc(location: location)
+    }
+    
 }
